@@ -2,3 +2,22 @@
 *.pt
 *.pth
 weights/
+
+
+# Ignore everything by default
+*
+
+# Allow directories (so git can traverse)
+!*/
+
+# Allow Python source files
+!*.py
+!*.ipynb
+
+# Allow doumentaiton files
+!*.md
+
+
+# (Optional) Allow common Python configs
+!*.txt
+!requirements.txt
